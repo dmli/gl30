@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyEGL3Demo01</string>
+    <string name="line">line</string>
+    <string name="shader_layout">Shader layout</string>
+    <string name="etc2">Etc2</string>
+    <string name="blend">blend</string>
+
+</resources>

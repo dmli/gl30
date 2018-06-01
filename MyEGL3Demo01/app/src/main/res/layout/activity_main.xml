@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shader_layout"
+                android:onClick="onClick"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btnLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/line"
+                android:onClick="onClick"
+                tools:ignore="ButtonStyle"/>
+
+            <Button
+                android:id="@+id/btnEtc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etc2"
+                android:onClick="onClick"
+                tools:ignore="ButtonStyle"/>
+
+            <Button
+                android:id="@+id/btnBlend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/blend"
+                android:onClick="onClick"
+                tools:ignore="ButtonStyle"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
